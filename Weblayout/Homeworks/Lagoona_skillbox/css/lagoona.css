@@ -369,6 +369,6 @@ h3{
   color: white;
   font-size: 20px;
 }
-.bracket:last-child{
+.bracket_last{
   background-image: url('../img/Rectangle2.svg');
 }
