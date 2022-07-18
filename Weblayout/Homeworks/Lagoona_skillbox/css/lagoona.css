@@ -684,14 +684,30 @@ footer{
   color: #A47312;
 
 }
+
 .footer_column:nth-child(2){
   margin-right: auto;
   width:360px;
 }
+
 .footer_logo_list{
   display: flex;
   flex-direction: column;
 }
+
 .footer_logo_item:not(:last-child){
   margin-bottom: 20px;
+}
+a svg:focus #sc_logo{
+ fill: #CC9933;
+
+}
+a svg:hover #sc_logo{
+ fill: #CC9933;
+}
+  a svg:active #sc_logo{
+   fill:#A47312;
+}
+.user-select-none{
+  pointer-events: none;
 }
